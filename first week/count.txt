@@ -1,0 +1,3 @@
+ cin >> 
+ cin.getline(char_type* __s,steamsize __n,char_type __delim)
+ #Include<cmath> or <math.h>
