@@ -5,8 +5,8 @@ int main() {
 	int n;
 	double s=0;
 	cin>>n;
-	int num1[n];
-	int num2[n];
+	double num1[n];
+	double num2[n];
 	double num3[n];
 	for(int i=0; i<n; i++) {
 		cin>>num1[i];

@@ -12,20 +12,16 @@ int main() {
 		}
 	}
 	for(int i=0; i<m; i++) {
-		int max=0;
-		for(int j=0; j<n; j++) {
+		int max=num[0][i];
+		for(int j=1; j<n; j++) {
 
 			if(num[j][i]>max) {
 				max=num[j][i];
 			}
-			if(j==n-1) {
-				cout<<max;
-			}
 		}
-		if(i!=m-1) {
-
-			cout<<" ";
-		}
+		cout<<max;
+		if(i!=m-1)cout<<" ";
+		
 	}
 
 	return 0;

@@ -13,8 +13,9 @@ int main(){
 		}
 		i++;
 	}
+	int m=i;
 	int max=num[0];
-	for(int i=1;i<100;i++){	
+	for(int i=1;i<m;i++){	
 	//cout<<num[i]<<endl;
 		if(num[i]>=max){
 			max=num[i];
